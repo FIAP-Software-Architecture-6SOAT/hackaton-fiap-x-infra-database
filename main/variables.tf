@@ -9,7 +9,7 @@ variable "private_key" {
 }
 
 variable "org_id" {
-  description = "Atlas organization id"
+  description = "Atlas organization ID"
   type        = string
   default     = "61e06d67d96981099e68d92b"
 }
