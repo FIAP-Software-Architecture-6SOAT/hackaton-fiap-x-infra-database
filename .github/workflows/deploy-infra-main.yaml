@@ -23,7 +23,7 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
         with:
-          terraform_version: 1.0.0
+          terraform_version: 1.9.5
 
       - id: auth
         uses: google-github-actions/auth@v2.0.0  
